@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+.yellow {
+	color: #f7c552;
+}
+
+.light-gray p {
+	color: #c6c5c5;
+}
+
+.submit {
+	display: inline-block;
+	background-color: #33c1cf;
+	font-size: 13px;
+	padding: 12px 18px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+input[type="submit"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+input[type="text"], input[type="password"] {
+	color: #5e5e5e;
+	padding-left: 7px;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 48px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -24px;
+	margin-left: -48px;
+}
+
+.speech-bubble p {
+	color: black;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 5px;
+}
+
+.speech-bubble h2 {
+	color: white;
+	margin: 5px;
+}
+.speech-bubble h4 {
+	color: black;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	margin: 5px;
+}
