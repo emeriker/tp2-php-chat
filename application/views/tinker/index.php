@@ -6,7 +6,7 @@
 				<span>TP2</span> salles de <em>CHAT</em>
 			</h2>
 			<div class="primary-white-button">
-				<a href=<?PHP echo base_url('index.php/auth/create_user')?>>Créer un compte</a>
+				<a href=<?PHP echo base_url('index.php/auth/create_user')?>>Cr&eacute;er un compte</a>
 			</div>
 		</div>
 	</div>
